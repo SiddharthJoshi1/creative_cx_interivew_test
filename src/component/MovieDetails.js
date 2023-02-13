@@ -39,13 +39,13 @@ useEffect(() => {
 
  return(<div className="movie-details">
 <div className="details-left">
-<div className="movie">
+<div className="movieVariant">
 {loading && !errorMessage ? (
       <span>loading... </span>
     ) : errorMessage ? (
       <div className="errorMessage">{errorMessage}</div>
     ) : (
-      <div className="movie">
+      <div className="movieVariant">
       <h2>{movie.Title}</h2>
       <div>
         <img

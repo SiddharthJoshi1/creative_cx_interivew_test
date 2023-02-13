@@ -14,7 +14,7 @@ import { OptimizelyProvider, createInstance  } from '@optimizely/react-sdk'
 import {getUserId} from './utils'
 
 const optimizely = createInstance({
-  sdkKey: 'L6pA6tFnzsCsa5YSJavGp'
+  sdkKey: 'DfCR4rPWJ6GJBafgddRJi'
 });
 console.log('______ optimizely', optimizely);
 const userID = getUserId();
